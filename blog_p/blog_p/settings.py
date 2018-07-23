@@ -217,3 +217,7 @@ PRO_EMAIL = 'michaelxuan@hotmail.com'
 
 # define user model
 AUTH_USER_MODEL = 'blog_app.User'
+
+# media url and media root
+MEDIA_URL = '/uploads'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
